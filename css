@@ -1,0 +1,170 @@
+body{
+    min-width: 1200px;
+    overflow-x: auto;
+}
+html,body,div,ul,li,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+.top{
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    position: relative;
+}
+.top-1{
+    display: block;
+    position: relative;
+    width: 1920px;
+    text-align: center;
+    left: 50%;
+    margin-left: -960px;
+}
+.top-ul {
+    min-width: 1200px;
+    height: 40px;
+    line-height: 35px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+.top-ula{
+    width: 1200px;
+    margin: 0 auto;
+}
+.top-ula:before, .top-ula:after {
+    content: "";
+    display: table;
+}
+.top-ul .ul-zuo{
+    float: left;
+}
+.top-ul .ul-you{
+    float: right;
+    margin-right: -18px;
+}
+.top-ul li:first-child {
+    padding-left: 0;
+}
+.top-ul li {
+    float: left;
+    padding: 0 8px;
+    position: relative;
+}
+.top-ul a{
+    color: #a4a4a4;
+    font-size: 12px;
+}
+.top-ul a:hover {
+    color: #ca151d;
+}
+.top-ul li~li:before {
+    content: "";
+    width: 1px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    background: #d3d3d3;
+}
+.top-ul .a1{
+    position: relative;
+    padding-right: 10px;
+}
+.top-ul .a1:before {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #777;
+    position: absolute;
+    top: 5px;
+    right: -5px;
+}
+.top-ul .a1:hover:before{
+    border-bottom: 4px solid #cb242b;
+    border-top: 0;
+}
+
+.top-ul .ul-you .d1{
+    position: relative;
+    margin: 0 -9px;
+    height: 40px;
+}
+.ul-you .d1 .h {
+    position: relative;
+    padding: 0 12px 0 10px;
+    height: 40px;
+}
+.ul-you li .gwc{
+    background: #f2f2f2;
+    position: relative;
+    z-index: 310;
+    margin: 0 -9px;
+    height: 40px;
+}
+.gwc .h {
+    position: relative;
+    padding: 0 12px 0 10px;
+    height: 40px;
+}
+.gwc .gwca{
+    position: relative;
+    padding-left: 18px;
+}
+.gwc .gwca:before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    background: url(../img/gwc.png) no-repeat;
+}
+.header {
+    min-width: 1200px;
+    height: 41px;
+    padding: 18px 0 15px 0;
+    position: relative;
+    /*line-height: 1.5;*/
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.logo {
+    float: left;
+    margin-right: 34px;
+}
+.left .logo img{
+    height: 36px;
+}
+.xilie {
+    float: left;
+    max-width: 560px;
+    height: 40px;
+    overflow: hidden;
+}
+.xilie li {
+    float: left;
+    margin-right: 24px;
+}
+.xilie li.img {
+    margin-top: 7px;
+}
+.xilie a:hover {
+    color: #ca151d;
+}
